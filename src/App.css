@@ -2,37 +2,68 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search-bar {
+  width: 300px;
+  height: 20px;
+  transition-duration: 1s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-bar:focus {
+  width: 400px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box {
+  text-align: left;
+  border: black ridge 1px;
+  border-radius: 10px;
+  width: 20rem;
+  padding: 10px;
+  margin: 20px auto;
+  overflow: hidden;
+  box-shadow: 0 0 5px 3px grey;
+  transition-duration: .3s;
+}
+
+.box:hover {
+  box-shadow: 0 0 8px 5px grey;
+}
+
+.github-link {
+  text-decoration: none;
+  color: black;
+}
+
+.person-profile {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.person-name {
+  margin-left: 10px;
+}
+
+.person-github {
+  margin: auto;
+  display: block;
+  background: #ff96ad;
+  transition-duration: .5s;
+  width: 200px;
+  height: 30px;
+  font-size: 16px;
+}
+
+.person-github:hover {
+  background: #ff96ad;
+  box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
+}
+
+.person-github-link {
+  text-decoration: none;
 }
