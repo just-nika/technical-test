@@ -67,3 +67,16 @@
 .person-github-link {
   text-decoration: none;
 }
+
+@media screen and (max-width: 500px) {
+  .box {
+    width: 80%;
+  }
+  .search-bar {
+    width: 85%;
+    transition-duration: 1s;
+  }
+  .search-bar:focus {
+    width: 95%;
+  }
+}

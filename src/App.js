@@ -24,7 +24,7 @@ function App() {
               </div>
               <div className="person-info">
                 <p>ელ. ფოსტა: <a href={`mailto:${person.email}`}>{person.email}</a></p>
-                <p>სქესი: {person.gender}</p>
+                <p>სქესი: <b>{person.gender}</b></p>
                 <a href={`https://github.com/@${person.github_username}`} className="person-github-link" target="_blank"><button className='person-github'><b>github-ზე გადასვლა</b></button></a>
               </div>
             </a>
