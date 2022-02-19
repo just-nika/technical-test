@@ -6,7 +6,13 @@ function App() {
   const [query, setQuery] = useState("")
   return (
     <div className="App">
-      <h1>Find People's GitHub Accounts</h1>
+      <br />
+      <div class="wrapper">
+          <div class="typing-demo">
+            Find People's GitHub Accounts
+          </div>
+      </div>
+      <h1></h1>
       <input placeholder="find person by name, last name or github username" className='search-bar' onChange={event => setQuery(event.target.value)} />
       {
         Data.filter(person => {

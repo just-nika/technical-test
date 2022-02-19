@@ -68,6 +68,35 @@
   text-decoration: none;
 }
 
+.wrapper {
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-demo {
+  width: 29ch;
+  animation: typing 2.5s steps(29), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
 @media screen and (max-width: 500px) {
   .box {
     width: 80%;
@@ -79,4 +108,8 @@
   .search-bar:focus {
     width: 95%;
   }
+  .typing-demo {
+    font-size: 1.3em;
+  }
 }
+
