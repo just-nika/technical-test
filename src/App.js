@@ -12,7 +12,7 @@ function App() {
             Find People's GitHub Accounts
           </div>
       </div>
-      <h1></h1>
+      <br />
       <input placeholder="find person by name, last name or github username" className='search-bar' onChange={event => setQuery(event.target.value)} />
       {
         Data.filter(person => {
