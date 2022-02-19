@@ -3,30 +3,38 @@
 }
 
 .search-bar {
-  width: 300px;
+  width: 310px;
   height: 20px;
   transition-duration: 1s;
+  font-size: 14px;
 }
 
 .search-bar:focus {
   width: 400px;
 }
 
-.box {
-  text-align: left;
-  border: black ridge 1px;
-  border-radius: 10px;
-  width: 20rem;
-  padding: 10px;
-  margin: 20px auto;
+.overlay-box {
+  height: 70px;
   overflow: hidden;
-  box-shadow: 0 0 5px 3px grey;
-  transition-duration: .3s;
+  border: black ridge 1px;
+  box-shadow: 0 0 7px 3px rgba(128, 128, 128, 0.39);
+  width: 20rem;
+  margin: 20px auto;
+  transition-duration: .5s;
 }
 
-.box:hover {
-  box-shadow: 0 0 8px 5px grey;
+.overlay-box:hover {
+  box-shadow: 0 0 10px 4px rgba(128, 128, 128, 0.81);
+  height: 200px;
 }
+
+.box {
+  text-align: left;
+  padding: 10px;
+  overflow: hidden;
+  height: 100%;
+}
+
 
 .github-link {
   text-decoration: none;
