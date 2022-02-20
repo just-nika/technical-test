@@ -8,7 +8,7 @@
   transition-duration: 1s;
   font-size: 14px;
   border-radius: 6px;
-  padding: 4px;
+  padding: 10px;
   outline: none;
   border: 0.5px solid rgba(0, 0, 0, 0.514);
 }
@@ -120,11 +120,11 @@
     width: auto;
   }
   .search-bar {
-    width: 85%;
+    width: 80%;
     transition-duration: 1s;
   }
   .search-bar:focus {
-    width: 95%;
+    width: 90%;
   }
   .typing-demo {
     font-size: 1.3em;
