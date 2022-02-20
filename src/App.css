@@ -64,7 +64,7 @@
 .person-github {
   margin: auto;
   display: block;
-  background: #ff96ad;
+  background: #5f7afb;
   transition-duration: .5s;
   width: 200px;
   height: 30px;
@@ -75,8 +75,8 @@
 }
 
 .person-github:hover {
-  background: #ff96ad;
-  box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
+  background: #5f7afb;
+  box-shadow: 0 0 5px #5f7afb, 0 0 25px #5f7afb, 0 0 50px #5f7afb, 0 0 200px #5f7afb;
 }
 
 .person-github-link {
